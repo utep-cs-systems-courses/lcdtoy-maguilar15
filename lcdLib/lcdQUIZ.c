@@ -19,7 +19,7 @@ main()
  
   u_char j;
   u_char i; 
-
+  u_char z; 
 
   for (i=0; i<15; i++) 
   {
@@ -28,6 +28,10 @@ main()
   for (j=0; j<15; j++) 
   {
 	 drawPixel(0,j,COLOR_RED);
+  }
+  for (z=0; z<15; z++)
+  {
+	  drawPixel(z,15,COLOR_GREEN); 
   }
    
   
