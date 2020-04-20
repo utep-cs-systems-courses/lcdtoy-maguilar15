@@ -26,11 +26,11 @@ lcddemo.elf: lcddemo.o libLcd.a
 	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ -lTimer 
 
 
-lcdx.elf: lcdy.o libLcd.a 
+lcdQUIZ.elf: lcdQUIZ.o libLcd.a 
 	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ -lTimer
 
 
-loadx: lcdx.elf 
+loadx: lcdQuiz.elf 
 	msp430loader.sh $^
 
 
