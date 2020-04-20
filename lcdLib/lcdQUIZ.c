@@ -16,22 +16,13 @@ main()
 
   clearScreen(COLOR_BLUE);
 
- 
-  u_char j;
-  u_char i; 
-  u_char z; 
-
-  for (i=0; i<15; i++) 
+  
+  u_char a; 
+  for (a=0; a<15; a++) 
   {
-  	drawPixel(i,i,COLOR_BLACK); 
-  } 
-  for (j=0; j<15; j++) 
-  {
-	 drawPixel(0,j,COLOR_RED);
-  }
-  for (z=0; z<15; z++)
-  {
-	  drawPixel(z,15,COLOR_GREEN); 
+	  drawPixel(a,a,COLOR_BLACK); 
+	  drawPixel(0,a,COLOR_RED); 
+	  drawPixel(a,15,COLOR_GREEN);
   }
    
   
