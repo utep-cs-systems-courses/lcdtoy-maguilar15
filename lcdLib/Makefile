@@ -30,7 +30,7 @@ lcdQUIZ.elf: lcdQUIZ.o libLcd.a
 	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ -lTimer
 
 
-loadx: lcdQuiz.elf 
+loadx: lcdQUIZ.elf 
 	msp430loader.sh $^
 
 
