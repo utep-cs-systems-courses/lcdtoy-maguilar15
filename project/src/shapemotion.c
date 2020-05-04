@@ -254,7 +254,7 @@ void wdt_c_handler()
 
     if (!(switches & BIT0)) {
       redrawScreen = 1;
-      drawString8x12(10,5,"LOUD NOISES!",COLOR_BLACK, COLOR_WHITE);
+      drawString8x12(10,5,"LOUD NOISES!",COLOR_BLACK, COLOR_WHITE);    /* FONT REQUIREMENT */
       buzzer_set_period(666);
       layer4.color = COLOR_RED;
       layer0.color = COLOR_RED;

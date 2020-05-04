@@ -11,7 +11,7 @@
 ### Load Dependencies 
 
 ```bash 
-$ cd lcdtoy-maguilar15/
+$ cd lcdtoy-maguilar15/project
 $ make 
 ```
 
