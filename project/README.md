@@ -10,13 +10,13 @@
     
 ### Load Dependencies 
 
-```bash 
+```
 $ cd lcdtoy-maguilar15/project
 $ make 
 ```
 
 ### Load project into MSP-430
-```bash 
+``` 
 $ cd src/ 
 $ make load 
 ```
